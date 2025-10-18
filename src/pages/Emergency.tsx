@@ -112,7 +112,7 @@ const Emergency = () => {
                       <Hospital size={48} className="mx-auto mb-4 text-muted-foreground opacity-50" />
                       <h3 className="font-semibold mb-2">No emergency facilities found</h3>
                       <p className="text-sm text-muted-foreground mb-4">
-                        No emergency services found within 50km. Try enabling location or call 911.
+                        No emergency services found within 50km. Try enabling location or call 108.
                       </p>
                     </CardContent>
                   </Card>
