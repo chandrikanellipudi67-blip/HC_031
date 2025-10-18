@@ -1,0 +1,104 @@
+{
+  "app": {
+    "name": "Buscador de Recursos de Salud",
+    "tagline": "Encuentra ayuda médica en tu idioma"
+  },
+  "nav": {
+    "home": "Inicio",
+    "categories": "Categorías",
+    "favorites": "Favoritos",
+    "emergency": "Emergencia",
+    "profile": "Perfil"
+  },
+  "menu": {
+    "navigation": "Navegación",
+    "settings": "Configuración",
+    "about": "Acerca de"
+  },
+  "auth": {
+    "login": "Iniciar Sesión",
+    "signup": "Registrarse",
+    "logout": "Cerrar Sesión",
+    "email": "Correo Electrónico",
+    "password": "Contraseña",
+    "name": "Nombre Completo",
+    "continueAsGuest": "Continuar como Invitado",
+    "googleSignIn": "Iniciar sesión con Google",
+    "forgotPassword": "¿Olvidaste tu Contraseña?",
+    "noAccount": "¿No tienes una cuenta?",
+    "haveAccount": "¿Ya tienes una cuenta?",
+    "welcomeBack": "Bienvenido de Nuevo",
+    "createAccount": "Crear Cuenta",
+    "emergencyAccess": "¿En emergencia? Continúa como invitado para acceso inmediato"
+  },
+  "search": {
+    "placeholder": "Buscar hospitales, clínicas, farmacias...",
+    "voiceSearch": "Búsqueda por Voz",
+    "filters": "Filtros",
+    "radius": "Radio de Búsqueda",
+    "openNow": "Abierto Ahora",
+    "emergency": "Emergencia 24/7",
+    "results": "resultados encontrados",
+    "noResults": "No se encontraron instalaciones médicas cercanas"
+  },
+  "categories": {
+    "hospital": "Hospitales",
+    "clinic": "Clínicas",
+    "pharmacy": "Farmacias",
+    "bloodBank": "Bancos de Sangre",
+    "emergency": "Servicios de Emergencia",
+    "all": "Todas las Categorías"
+  },
+  "facility": {
+    "viewDetails": "Ver Detalles",
+    "getDirections": "Obtener Direcciones",
+    "call": "Llamar",
+    "save": "Guardar",
+    "share": "Compartir",
+    "report": "Reportar Problema",
+    "hours": "Horario",
+    "services": "Servicios",
+    "languages": "Idiomas Disponibles",
+    "insurance": "Seguro Aceptado",
+    "reviews": "Reseñas",
+    "writeReview": "Escribir Reseña",
+    "verified": "Verificado",
+    "closed": "Cerrado",
+    "open": "Abierto"
+  },
+  "profile": {
+    "settings": "Configuración",
+    "language": "Preferencia de Idioma",
+    "notifications": "Notificaciones",
+    "privacy": "Privacidad",
+    "about": "Acerca de",
+    "version": "Versión",
+    "logout": "Cerrar Sesión"
+  },
+  "emergency": {
+    "title": "Servicios de Emergencia",
+    "ambulance": "Ambulancia",
+    "police": "Policía",
+    "fire": "Bomberos",
+    "nearest": "Salas de Emergencia Más Cercanas",
+    "call": "Llamar Emergencia",
+    "warning": "En caso de emergencia que amenace la vida, llame inmediatamente"
+  },
+  "common": {
+    "loading": "Cargando...",
+    "error": "Ocurrió un error",
+    "tryAgain": "Intentar de Nuevo",
+    "cancel": "Cancelar",
+    "save": "Guardar",
+    "delete": "Eliminar",
+    "edit": "Editar",
+    "back": "Atrás",
+    "next": "Siguiente",
+    "done": "Listo",
+    "search": "Buscar",
+    "filter": "Filtrar",
+    "sort": "Ordenar",
+    "apply": "Aplicar",
+    "reset": "Restablecer"
+  }
+}

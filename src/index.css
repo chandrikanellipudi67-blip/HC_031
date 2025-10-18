@@ -1,0 +1,260 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Import component styles */
+@import './styles/components.css';
+
+/* Base styles */
+@layer base {
+  :root {
+    /* Color definitions */
+    --background: 0 0% 100%;
+    --foreground: 222 47% 11%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 222 47% 11%;
+    --card-radius: 1rem; /* Increased from 0.75rem */
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 222 47% 11%;
+    --popover-radius: 1rem; /* Increased from 0.75rem */
+
+    /* Primary colors */
+    --primary: 211 100% 50%;
+    --primary-foreground: 0 0% 100%;
+    --primary-hover: 211 100% 45%;
+    --primary-radius: 0.75rem; /* Increased from 0.5rem */
+
+    --secondary: 210 40% 96.1%;
+    --secondary-foreground: 222 47% 11%;
+    --secondary-radius: 0.75rem; /* Increased from 0.5rem */
+
+    --muted: 210 40% 96.1%;
+    --muted-foreground: 215 20% 50%;
+
+    --accent: 142 71% 45%;
+    --accent-foreground: 0 0% 100%;
+    --accent-radius: 0.75rem; /* Increased from 0.5rem */
+
+    /* Emergency colors */
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 0% 100%;
+    --destructive-radius: 0.75rem; /* Increased from 0.5rem */
+    --emergency: 0 100% 50%;
+    --emergency-foreground: 0 0% 100%;
+
+    /* UI elements */
+    --border: 214 32% 91%;
+    --input: 214 32% 91%;
+    --input-radius: 0.75rem; /* Increased from 0.5rem */
+    --ring: 211 100% 50%;
+    --radius: 0.75rem; /* Base radius increased from 0.5rem */
+    
+    /* Status colors */
+    --success: 142 71% 45%;
+    --success-foreground: 0 0% 100%;
+    --success-radius: 0.75rem; /* Increased from 0.5rem */
+    
+    --warning: 38 92% 50%;
+    --warning-foreground: 0 0% 100%; /* Changed from dark to white for better contrast */
+    --warning-radius: 0.75rem; /* Increased from 0.5rem */
+    
+    --info: 199 89% 48%;
+    --info-foreground: 0 0% 100%;
+    --info-radius: 0.75rem; /* Increased from 0.5rem */
+
+    /* Component specific border radius */
+    --alert-radius: 0.75rem; /* Increased from 0.5rem */
+    --badge-radius: 0.5rem;
+    --modal-radius: 1.25rem; /* Increased from 1rem */
+    --drawer-radius: 1.25rem; /* Increased from 1rem */
+    --toast-radius: 0.75rem; /* Increased from 0.5rem */
+    --tooltip-radius: 0.5rem;
+
+    /* Sidebar */
+    --sidebar-background: 0 0% 100%;
+    --sidebar-foreground: 222 47% 11%;
+    --sidebar-primary: 211 100% 50%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 210 40% 96.1%;
+    --sidebar-accent-foreground: 222 47% 11%;
+    --sidebar-border: 214 32% 91%;
+    --sidebar-ring: 211 100% 50%;
+    --sidebar-radius: 1rem; /* Increased from 0.75rem */
+  }
+
+  /* Dark theme overrides */
+  .dark {
+    --background: 222 47% 11%;
+    --foreground: 210 40% 98%;
+
+    --card: 222 47% 11%;
+    --card-foreground: 210 40% 98%;
+    --card-radius: 1rem; /* Increased from 0.75rem */
+
+    --popover: 222 47% 11%;
+    --popover-foreground: 210 40% 98%;
+    --popover-radius: 1rem; /* Increased from 0.75rem */
+
+    --primary: 211 100% 60%;
+    --primary-foreground: 0 0% 100%;
+    --primary-hover: 211 100% 55%;
+    --primary-radius: 0.75rem; /* Increased from 0.5rem */
+
+    --secondary: 217 33% 17%;
+    --secondary-foreground: 210 40% 98%;
+    --secondary-radius: 0.75rem; /* Increased from 0.5rem */
+
+    --muted: 217 33% 17%;
+    --muted-foreground: 215 20% 65%;
+
+    --accent: 142 71% 36%;
+    --accent-foreground: 0 0% 100%;
+    --accent-radius: 0.75rem; /* Increased from 0.5rem */
+
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 0% 100%;
+    --destructive-radius: 0.75rem; /* Increased from 0.5rem */
+    
+    --emergency: 0 100% 60%;
+    --emergency-foreground: 0 0% 100%;
+
+    --border: 217 33% 17%;
+    --input: 217 33% 17%;
+    --input-radius: 0.75rem; /* Increased from 0.5rem */
+    --ring: 211 100% 60%;
+    --radius: 0.75rem; /* Base radius increased from 0.5rem */
+
+    --success: 142 71% 36%;
+    --success-foreground: 0 0% 100%;
+    --success-radius: 0.75rem; /* Increased from 0.5rem */
+    
+    --warning: 38 92% 50%;
+    --warning-foreground: 0 0% 100%;
+    --warning-radius: 0.75rem; /* Increased from 0.5rem */
+    
+    --info: 199 89% 48%;
+    --info-foreground: 0 0% 100%;
+    --info-radius: 0.75rem; /* Increased from 0.5rem */
+
+    --sidebar-background: 222 47% 11%;
+    --sidebar-foreground: 210 40% 98%;
+    --sidebar-primary: 211 100% 60%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 217 33% 17%;
+    --sidebar-accent-foreground: 210 40% 98%;
+    --sidebar-border: 217 33% 17%;
+    --sidebar-ring: 211 100% 60%;
+    --sidebar-radius: 1rem; /* Increased from 0.75rem */
+    
+    /* Safe area for mobile devices */
+    padding-bottom: env(safe-area-inset-bottom, 12px);
+  }
+
+  /* Base element styles */
+  * {
+    border-color: hsl(var(--border));
+  }
+
+  body {
+    background-color: hsl(var(--background));
+    color: hsl(var(--foreground));
+    font-feature-settings: "rlig" 1, "calt" 1;
+  }
+
+  /* Better focus states */
+  :focus-visible {
+    outline: 2px solid hsl(var(--ring));
+    outline-offset: 2px;
+    border-radius: var(--radius);
+  }
+
+  /* Scrollbar styles */
+  @media (min-width: 1024px) {
+    ::-webkit-scrollbar {
+      width: 8px;
+      height: 8px;
+    }
+    
+    ::-webkit-scrollbar-track {
+      background: hsl(var(--muted) / 0.3);
+      border-radius: 4px;
+    }
+    
+    ::-webkit-scrollbar-thumb {
+      background: hsl(var(--muted-foreground) / 0.3);
+      border-radius: 4px;
+    }
+    
+    ::-webkit-scrollbar-thumb:hover {
+      background: hsl(var(--muted-foreground) / 0.5);
+    }
+  }
+
+  /* Better text selection */
+  ::selection {
+    background: hsl(var(--primary) / 0.9);
+    color: hsl(var(--primary-foreground));
+  }
+
+  /* Better form elements */
+  input[type="number"] {
+    -moz-appearance: textfield;
+  }
+  
+  input[type="number"]::-webkit-outer-spin-button,
+  input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+
+  /* Better focus for keyboard navigation */
+  :focus:not(:focus-visible) {
+    outline: none;
+  }
+
+  /* Print styles */
+  @media print {
+    body * {
+      visibility: hidden;
+    }
+    
+    #print-section,
+    #print-section * {
+      visibility: visible;
+    }
+    
+    #print-section {
+      position: absolute;
+      left: 0;
+      top: 0;
+      width: 100%;
+    }
+  }
+}
+
+/* Animation keyframes */
+@keyframes pulse {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.5;
+  }
+}
+
+.animate-pulse {
+  animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
+
+/* Safe area utilities */
+@supports (padding: max(0px)) {
+  .safe-area-bottom {
+    padding-bottom: max(1rem, env(safe-area-inset-bottom));
+  }
+  
+  .safe-area-top {
+    padding-top: max(1rem, env(safe-area-inset-top));
+  }
+}

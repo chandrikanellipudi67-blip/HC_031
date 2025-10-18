@@ -1,0 +1,104 @@
+{
+  "app": {
+    "name": "محدد موقع الموارد الصحية",
+    "tagline": "ابحث عن المساعدة الطبية بلغتك"
+  },
+  "nav": {
+    "home": "الرئيسية",
+    "categories": "الفئات",
+    "favorites": "المفضلة",
+    "emergency": "طوارئ",
+    "profile": "الملف الشخصي"
+  },
+  "menu": {
+    "navigation": "التنقل",
+    "settings": "الإعدادات",
+    "about": "حول"
+  },
+  "auth": {
+    "login": "تسجيل الدخول",
+    "signup": "إنشاء حساب",
+    "logout": "تسجيل الخروج",
+    "email": "البريد الإلكتروني",
+    "password": "كلمة المرور",
+    "name": "الاسم الكامل",
+    "continueAsGuest": "المتابعة كضيف",
+    "googleSignIn": "تسجيل الدخول باستخدام Google",
+    "forgotPassword": "هل نسيت كلمة المرور؟",
+    "noAccount": "ليس لديك حساب؟",
+    "haveAccount": "لديك حساب بالفعل؟",
+    "welcomeBack": "مرحبا بعودتك",
+    "createAccount": "إنشاء حساب",
+    "emergencyAccess": "في حالة طوارئ؟ تابع كضيف للوصول الفوري"
+  },
+  "search": {
+    "placeholder": "ابحث عن المستشفيات والعيادات والصيدليات...",
+    "voiceSearch": "البحث الصوتي",
+    "filters": "الفلاتر",
+    "radius": "نطاق البحث",
+    "openNow": "مفتوح الآن",
+    "emergency": "طوارئ 24/7",
+    "results": "نتائج تم العثور عليها",
+    "noResults": "لم يتم العثور على مرافق طبية قريبة"
+  },
+  "categories": {
+    "hospital": "المستشفيات",
+    "clinic": "العيادات",
+    "pharmacy": "الصيدليات",
+    "bloodBank": "بنوك الدم",
+    "emergency": "خدمات الطوارئ",
+    "all": "جميع الفئات"
+  },
+  "facility": {
+    "viewDetails": "عرض التفاصيل",
+    "getDirections": "الحصول على الاتجاهات",
+    "call": "اتصل",
+    "save": "حفظ",
+    "share": "مشاركة",
+    "report": "الإبلاغ عن مشكلة",
+    "hours": "ساعات العمل",
+    "services": "الخدمات",
+    "languages": "اللغات المتاحة",
+    "insurance": "التأمين المقبول",
+    "reviews": "المراجعات",
+    "writeReview": "كتابة مراجعة",
+    "verified": "موثق",
+    "closed": "مغلق",
+    "open": "مفتوح"
+  },
+  "profile": {
+    "settings": "الإعدادات",
+    "language": "تفضيل اللغة",
+    "notifications": "الإشعارات",
+    "privacy": "الخصوصية",
+    "about": "حول",
+    "version": "الإصدار",
+    "logout": "تسجيل الخروج"
+  },
+  "emergency": {
+    "title": "خدمات الطوارئ",
+    "ambulance": "الإسعاف",
+    "police": "الشرطة",
+    "fire": "الإطفاء",
+    "nearest": "أقرب غرف الطوارئ",
+    "call": "اتصل بالطوارئ",
+    "warning": "في حالة الطوارئ التي تهدد الحياة، اتصل فورا"
+  },
+  "common": {
+    "loading": "جار التحميل...",
+    "error": "حدث خطأ",
+    "tryAgain": "حاول مرة أخرى",
+    "cancel": "إلغاء",
+    "save": "حفظ",
+    "delete": "حذف",
+    "edit": "تحرير",
+    "back": "رجوع",
+    "next": "التالي",
+    "done": "تم",
+    "search": "بحث",
+    "filter": "تصفية",
+    "sort": "فرز",
+    "apply": "تطبيق",
+    "reset": "إعادة تعيين"
+  }
+}

@@ -1,0 +1,106 @@
+{
+  "app": {
+    "name": "Health Resource Finder",
+    "tagline": "Find medical help in your language"
+  },
+  "nav": {
+    "home": "Home",
+    "categories": "Categories",
+    "favorites": "Favorites",
+    "emergency": "Emergency",
+    "profile": "Profile"
+  },
+  "menu": {
+    "navigation": "Navigation",
+    "settings": "Settings",
+    "about": "About"
+  },
+  "auth": {
+    "login": "Sign In",
+    "signup": "Sign Up",
+    "signOut": "Sign Out",
+    "signIn": "Sign In",
+    "logout": "Sign Out",
+    "email": "Email",
+    "password": "Password",
+    "name": "Full Name",
+    "continueAsGuest": "Continue as Guest",
+    "googleSignIn": "Sign in with Google",
+    "forgotPassword": "Forgot Password?",
+    "noAccount": "Don't have an account?",
+    "haveAccount": "Already have an account?",
+    "welcomeBack": "Welcome Back",
+    "createAccount": "Create Account",
+    "emergencyAccess": "In an emergency? Continue as guest for immediate access"
+  },
+  "search": {
+    "placeholder": "Search hospitals, clinics, pharmacies...",
+    "voiceSearch": "Voice Search",
+    "filters": "Filters",
+    "radius": "Search Radius",
+    "openNow": "Open Now",
+    "emergency": "24/7 Emergency",
+    "results": "results found",
+    "noResults": "No medical facilities found nearby"
+  },
+  "categories": {
+    "hospital": "Hospitals",
+    "clinic": "Clinics",
+    "pharmacy": "Pharmacies",
+    "bloodBank": "Blood Banks",
+    "emergency": "Emergency Services",
+    "all": "All Categories"
+  },
+  "facility": {
+    "viewDetails": "View Details",
+    "getDirections": "Get Directions",
+    "call": "Call",
+    "save": "Save",
+    "share": "Share",
+    "report": "Report Issue",
+    "hours": "Operating Hours",
+    "services": "Services",
+    "languages": "Languages Available",
+    "insurance": "Insurance Accepted",
+    "reviews": "Reviews",
+    "writeReview": "Write a Review",
+    "verified": "Verified",
+    "closed": "Closed",
+    "open": "Open"
+  },
+  "profile": {
+    "settings": "Settings",
+    "language": "Language Preference",
+    "notifications": "Notifications",
+    "privacy": "Privacy",
+    "about": "About",
+    "version": "Version",
+    "logout": "Sign Out"
+  },
+  "emergency": {
+    "title": "Emergency Services",
+    "ambulance": "Ambulance",
+    "police": "Police",
+    "fire": "Fire Department",
+    "nearest": "Nearest Emergency Rooms",
+    "call": "Call Emergency",
+    "warning": "In case of life-threatening emergency, call immediately"
+  },
+  "common": {
+    "loading": "Loading...",
+    "error": "An error occurred",
+    "tryAgain": "Try Again",
+    "cancel": "Cancel",
+    "save": "Save",
+    "delete": "Delete",
+    "edit": "Edit",
+    "back": "Back",
+    "next": "Next",
+    "done": "Done",
+    "search": "Search",
+    "filter": "Filter",
+    "sort": "Sort",
+    "apply": "Apply",
+    "reset": "Reset"
+  }
+}
