@@ -14,8 +14,8 @@ interface EmergencyContact {
 
 const emergencyContacts: EmergencyContact[] = [
   {
-    name: 'Emergency (911)',
-    number: '911',
+    name: 'Emergency (108)',
+    number: '108',
     description: 'Fire, Police, Medical Emergency',
     icon: Danger,
     color: 'bg-red-500',
@@ -23,7 +23,7 @@ const emergencyContacts: EmergencyContact[] = [
   },
   {
     name: 'Ambulance',
-    number: '911',
+    number: '108',
     description: 'Medical emergency transport',
     icon: Hospital,
     color: 'bg-orange-500',
@@ -60,7 +60,7 @@ const EmergencyContactsList = () => {
           <h3 className="font-semibold text-red-700 dark:text-red-400">Emergency Notice</h3>
         </div>
         <p className="text-sm text-red-600 dark:text-red-400">
-          If this is a life-threatening emergency, call 911 immediately. These numbers are for reference and may vary by location.
+          If this is a life-threatening emergency, call 108 immediately. These numbers are for reference and may vary by location.
         </p>
       </div>
 
